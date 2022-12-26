@@ -78,9 +78,11 @@ section{
     color: $white;
     cursor: pointer;
     background: $blue;
+    transition: 0.1s ease;
 
     &:hover{
         background: $black;
+        transition: 0.1s ease;
         
     }
 }
@@ -149,10 +151,12 @@ section{
     margin-left: 2rem;
     color: $white;
     cursor: pointer;
+    transition: 0.1s ease;
 
     &:hover{
 
         color: gold;
+        transition: 0.1s ease;
  }
   }
  }
@@ -182,10 +186,12 @@ section{
         font-size: 4rem; 
         cursor: pointer;
         color: $light-color;
+        transition: 0.1s ease;
 
         &:hover{
             transform: rotate(70deg);
             color: $black;
+            transition: 0.1s ease;
                 
         }
 }
@@ -215,9 +221,11 @@ section{
         a{
             font-size: 1.5rem;
             color: $blue;
+            transition: 0.1s ease;
             
             a:hover{
                 color: $black;
+                transition: 0.1s ease;
        }
      }
 }
@@ -229,9 +237,11 @@ section{
             padding: 1rem 2rem;
             font-size: 1.7rem;
             color: $light-color;
+            transition: 0.1s ease;
     
             &:hover{
                 color: $blue; 
+                transition: 0.1s ease;
 
 
                 i{
@@ -356,8 +366,10 @@ section{
                 align-items: center;
                 gap: 2rem; 
                 background:$white; 
+                transition: 0.1s ease;
 
                 &:hover{
+                    transition: 0.1s ease;
                     image{
                         .main-img{
                             display: none;
@@ -380,6 +392,7 @@ section{
                 .hover-img{
                     display: none;
                     animation: fadeIn .2s linear;
+                    transition: 0.1s ease;
                 }
 
             }
